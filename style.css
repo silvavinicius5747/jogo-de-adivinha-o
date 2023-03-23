@@ -1,0 +1,44 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #figure {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  
+  #guess {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  #check-button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  #result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #score {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
